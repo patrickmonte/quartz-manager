@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.jobs.entities;
+package br.patrickmonte.quartzmanager.jobs.entities;
 
 import java.util.Date;
 

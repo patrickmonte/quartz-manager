@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.scheduler;
+package br.patrickmonte.quartzmanager.scheduler;
 
 import org.quartz.Trigger;
 

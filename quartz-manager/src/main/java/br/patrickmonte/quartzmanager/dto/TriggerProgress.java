@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.dto;
+package br.patrickmonte.quartzmanager.dto;
 
 import java.util.Date;
 

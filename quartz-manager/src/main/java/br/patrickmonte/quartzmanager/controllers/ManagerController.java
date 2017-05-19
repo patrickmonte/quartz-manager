@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.controllers;
+package br.patrickmonte.quartzmanager.controllers;
 
 import javax.annotation.Resource;
 

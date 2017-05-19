@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.jobs;
+package br.patrickmonte.quartzmanager.jobs;
 
 import javax.annotation.Resource;
 
@@ -10,8 +10,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 
-import it.fabioformosa.quartzmanager.aspects.ProgressUpdater;
-import it.fabioformosa.quartzmanager.jobs.entities.LogRecord;
+import br.patrickmonte.quartzmanager.aspects.ProgressUpdater;
+import br.patrickmonte.quartzmanager.jobs.entities.LogRecord;
 
 public abstract class AbstractLoggingJob implements Job {
 

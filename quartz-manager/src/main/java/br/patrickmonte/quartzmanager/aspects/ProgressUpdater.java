@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.aspects;
+package br.patrickmonte.quartzmanager.aspects;
 
 import org.quartz.SchedulerException;
 

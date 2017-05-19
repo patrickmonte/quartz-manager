@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.aspects;
+package br.patrickmonte.quartzmanager.aspects;
 
 import javax.annotation.Resource;
 
@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.stereotype.Component;
 
-import it.fabioformosa.quartzmanager.dto.TriggerProgress;
-import it.fabioformosa.quartzmanager.scheduler.TriggerMonitor;
+import br.patrickmonte.quartzmanager.dto.TriggerProgress;
+import br.patrickmonte.quartzmanager.scheduler.TriggerMonitor;
 
 //@Aspect
 @Component

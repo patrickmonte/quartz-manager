@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.controllers;
+package br.patrickmonte.quartzmanager.controllers;
 
 import javax.annotation.Resource;
 
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import it.fabioformosa.quartzmanager.dto.SchedulerConfigParam;
-import it.fabioformosa.quartzmanager.dto.TriggerProgress;
-import it.fabioformosa.quartzmanager.scheduler.TriggerMonitor;
+import br.patrickmonte.quartzmanager.dto.SchedulerConfigParam;
+import br.patrickmonte.quartzmanager.dto.TriggerProgress;
+import br.patrickmonte.quartzmanager.scheduler.TriggerMonitor;
 
 @RestController
 @RequestMapping("/scheduler")

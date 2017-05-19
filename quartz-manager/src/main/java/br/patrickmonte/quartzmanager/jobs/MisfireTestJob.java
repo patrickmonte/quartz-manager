@@ -1,11 +1,11 @@
-package it.fabioformosa.quartzmanager.jobs;
+package br.patrickmonte.quartzmanager.jobs;
 
 import org.quartz.JobExecutionContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import it.fabioformosa.quartzmanager.jobs.entities.LogRecord;
-import it.fabioformosa.quartzmanager.jobs.entities.LogRecord.LogType;
+import br.patrickmonte.quartzmanager.jobs.entities.LogRecord;
+import br.patrickmonte.quartzmanager.jobs.entities.LogRecord.LogType;
 
 public class MisfireTestJob extends AbstractLoggingJob {
 

@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.controllers;
+package br.patrickmonte.quartzmanager.controllers;
 
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;

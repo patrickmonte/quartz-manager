@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.configuration;
+package br.patrickmonte.quartzmanager.configuration;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -19,10 +19,10 @@ import org.springframework.scheduling.quartz.JobDetailFactoryBean;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 import org.springframework.scheduling.quartz.SimpleTriggerFactoryBean;
 
-import it.fabioformosa.quartzmanager.jobs.SampleJob;
-import it.fabioformosa.quartzmanager.scheduler.AutowiringSpringBeanJobFactory;
-import it.fabioformosa.quartzmanager.scheduler.TriggerMonitor;
-import it.fabioformosa.quartzmanager.scheduler.TriggerMonitorImpl;
+import br.patrickmonte.quartzmanager.jobs.SampleJob;
+import br.patrickmonte.quartzmanager.scheduler.AutowiringSpringBeanJobFactory;
+import br.patrickmonte.quartzmanager.scheduler.TriggerMonitor;
+import br.patrickmonte.quartzmanager.scheduler.TriggerMonitorImpl;
 
 @Configuration
 @ConditionalOnProperty(name = "quartz.enabled")

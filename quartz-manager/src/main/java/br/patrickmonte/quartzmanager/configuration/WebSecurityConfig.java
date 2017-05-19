@@ -1,4 +1,4 @@
-package it.fabioformosa.quartzmanager.configuration;
+package br.patrickmonte.quartzmanager.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
